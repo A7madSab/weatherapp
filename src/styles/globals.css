@@ -1,0 +1,39 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.selected-unit {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.unit {
+    cursor: pointer;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.45);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.4px);
+    padding: 24px;
+    -webkit-backdrop-filter: blur(2.4px);
+    border: 1px solid rgba(131, 205, 240, 0.45);
+    transition: background 0.5s ease;
+}
+
+.glass:hover {
+    background: rgba(255, 255, 255, 0.589);
+    transition: background 0.5s ease;
+}
